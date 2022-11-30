@@ -8,7 +8,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head />
-      <body>{children}</body>
+      <body>
+        <main className="w-screen h-screen flex items-center justify-center">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }

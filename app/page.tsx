@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <h1>:)</h1>
+      <h1 className="text-3xl text-zinc-900">:)</h1>
     </>
   );
 }
